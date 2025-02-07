@@ -1,7 +1,7 @@
 import os
 
 filename = "Documentation.md"
-
+# Check if the file exists
 if os.path.exists(filename):
     if os.path.getsize(filename) == 0:
         print(f"{filename} is empty.")
